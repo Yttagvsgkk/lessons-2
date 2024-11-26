@@ -75,3 +75,16 @@ standard_room = StandardRoom(features=["TV", "AC"], price=100.0)
 luxury_room = LuxuryRoom(features=["TV", "AC", "Mini Bar"], price=300.0)
 family_room = FamilyRoom(features=["TV", "AC", "Extra Bed"], price=200.0)
 
+
+print("Standard Room:")
+print(f"Price: ${standard_room.get_price()}")
+print(f"Features: {', '.join(standard_room.get_features())}\n")
+
+print("Luxury Room:")
+print(f"Price: ${luxury_room.get_price()}")
+print(f"Features: {', '.join(luxury_room.get_features())}\n")
+
+
+print("Family Room:")
+print(f"Price: ${family_room.get_price()}")
+print(f"Features: {', '.join(family_room.get_features())}")
